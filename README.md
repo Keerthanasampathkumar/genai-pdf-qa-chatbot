@@ -32,7 +32,7 @@ Test the chatbot with a variety of queries to assess accuracy and reliability.
 
 
 ### PROGRAM:
-```
+```py
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter, RecursiveCharacterTextSplitter
 from langchain.vectorstores import DocArrayInMemorySearch
