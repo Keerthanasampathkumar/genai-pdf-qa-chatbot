@@ -51,7 +51,7 @@ The objective is to create a chatbot that can intelligently respond to queries b
 2. Print the chatbot’s answer (result["result"]).
 
 ### PROGRAM:
-```  
+```py
 from langchain.document_loaders import PyPDFLoader
 loader = PyPDFLoader("tech.pdf")
 pages = loader.load()
